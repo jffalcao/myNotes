@@ -1,0 +1,10 @@
+The native HTTP protocol (RFC 2616) defines eight actions, also known as HTTP verbs:
+
+GET
+POST
+PUT
+DELETE
+HEAD
+OPTIONS
+TRACE
+CONNECT
