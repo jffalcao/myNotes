@@ -33,6 +33,7 @@ ref: http://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/
 
 ```
 diskutil list
-unmount /dev/disk2
+diskutil umount /dev/disk2
+cd ~/Downloads
 sudo dd if=./Downloads/debian-9.5.0-amd64-netinst.iso of=/dev/rdisk2 bs=1m
 ```
