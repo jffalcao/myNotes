@@ -90,6 +90,7 @@ Install instructions: https://github.com/nodesource/distributions/blob/master/RE
 Example for version 10.13
 
 ```
+sudo apt-get install curl
 su
 curl -sL https://deb.nodesource.com/setup_10.x | bash -
 apt-get install -y nodejs
