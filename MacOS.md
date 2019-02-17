@@ -2,9 +2,9 @@
 ---------------------------------------
 
 ## Patch MacBook pro for GPU Failure
-Ref: https://www.youtube.com/watch?v=8-7UNFKG1eE
-Ref: https://www.imore.com/how-turn-system-integrity-protection-macos
-Navigate to: https://github.com/julian-poidevin/MBPMid2010_GPUFix/releases
+Ref: https://www.youtube.com/watch?v=8-7UNFKG1eE. 
+Ref: https://www.imore.com/how-turn-system-integrity-protection-macos. 
+Navigate to: https://github.com/julian-poidevin/MBPMid2010_GPUFix/releases. 
 
 prerequisite (Usually you will be prompted for this)
 ```
