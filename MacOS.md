@@ -37,3 +37,7 @@ diskutil umount /dev/disk2
 cd ~/Downloads
 sudo dd if=./Downloads/debian-9.5.0-amd64-netinst.iso of=/dev/rdisk2 bs=1m
 ```
+## Install VirtualBox
+- Download the MacOS Version and execute
+
+- For Debians VMs. Guest Additions have to be installed from the mounted device after you choose the option to insert the guest Additions CD image in the Devices Menu.
