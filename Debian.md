@@ -49,7 +49,11 @@ git config --global --list
 ```
 
 ## OpenJDK
-- Procédure à décrire
+
+```
+sudo apt-get install openjdk-8-jdk
+java -version
+```
 
 ## VS Code
 
