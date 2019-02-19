@@ -81,7 +81,19 @@ code .
 - Procédure à décrire
 
 ## Docker
-- Procédure à décrire
+
+https://docs.docker.com/install/linux/docker-ce/debian/
+
+```
+sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+docker --version
+```
 
 ## Docker-compose
 - Procédure à décrire
@@ -178,6 +190,19 @@ sudo systemctl enable libvirtd.service
 
 ## Installing VBox Guest Additions
 https://www.linuxbabe.com/desktop-linux/how-to-install-virtualbox-guest-additions-on-debian-step-by-step
+
+## VirtualBox - Setting NTP on Debian guest
+
+https://superuser.com/questions/649661/virtualbox-ubuntu-vm-doesnt-automatically-sync-time-with-host-even-with-guest-a
+
+```
+sudo apt-get install ntp ntpdate
+date
+sudo service ntp stop
+sudo ntpdate pool.ntp.org
+sudo service ntp start
+date
+```
 
 ## Chrome
 
