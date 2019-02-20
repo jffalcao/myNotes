@@ -2,20 +2,19 @@
 -----------------
 Naming convention:
 ```
-<source>-<author>-<title>.md
+<v|b><source>-<author>-<title>.md
 ```
 
 ### Sources
 
-| Sources   | Details                       |
-|-----------|------------                   |
-|SBOV       | Safari Books Online Video     |
-|SBOB       | Safari Books Online Book      | 
-|LND        | Lynda.com                     |
-|YTB        | Youtube                       |          
+| Sources   | Details                                          |
+|-----------|------------                                      |
+|Safari           | Safari Books and Videos Online Video       |
+|Lynda            | Lynda.com                                  |
+|Youtube          | Youtube                                    |          
 ### Authors
 - Initials + Lastname
-ex. Martin Fowler = MFowler
+ex. Martin Fowler = mfowler
 
 ### Book Title
 - Camel Case title ex.: PatternsOfEnterpriseApplicationArchitecture
