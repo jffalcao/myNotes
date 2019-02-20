@@ -55,5 +55,14 @@ docker container rm -f webserver
 ### 2.3 Run Container (ports and volumes)
 
 ```
+docker container run -d --name webserver -P jboss/wildfly
+docker container ls
+
+# Browse to http://localhost:<AssignedIP>
+docker container logs webserver 
+docker container stop webserver 
+docker container ls
+docker container ls -a
+docker container rm webserver 
 
 ```
