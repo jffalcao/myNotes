@@ -2,7 +2,12 @@
 
 *By: Arun Gupta*
 
-https://github.com/arun-gupta/docker-for-java.git
+- clone https://github.com/arun-gupta/docker-for-java.git
+
+```
+cd ~/jfrflabs
+git clone https://github.com/arun-gupta/docker-for-java.git
+```
 
 ## 2 Run Containers and Build Images
 
@@ -104,37 +109,62 @@ ocker container run helloworld
 
 ```
 cd ~/jfrflabs/docker-for-java
-mkdir hellojava
-mv Dockerfile hellojava/
-cd hellojava/
+mkdir hello-openjdk
+cd hello-openjdk/
 vi Dockerfile
 
 # Dockerfile content ----------------------------------------
 FROM openjdk
-CMD echo java -version
+CMD java -version
 -------------------------------------------------------------
 
+cat Dockerfile
 ls
-docker image build -t hellojava .
+docker image build --rm -t hello-openjdk .
 docker image ls
-docker container run hellojava
+docker container run hello-openjdk
 ```
-- Modify Dockerfile FROM openjdk:jdk-alpine
+- Modify Dockerfile to use the alpine variant for openjdk
 
 ```
 vi Dockerfile
 # Dockerfile content ----------------------------------------
 FROM openjdk:jdk-alpine
-CMD echo java -version
+CMD java -version
 -------------------------------------------------------------
 
 cat Dockerfile
-docker image build -t hellojava:alpine .
+docker image build --rm -t hello-openjdk:alpine .
 docker image ls
-docker container run hellojava:alpine 
+docker container run hello-openjdk:alpine
 ```
 
 ## 2.6 Copy files in the Docker image
+
+```
+cd ~/jfrflabs/
+mkdir hello-web
+cd hello-web/
+cp ../docker-for-java/chapter2/webapp.war .
+ls
+vi Dockerfile
+
+#------------------------------------------------
+FROM jboss/wildfly
+COPY webapp.war /opt/jboss/wildfly/standalone/deployments/webapp.war
+#------------------------------------------------
+
+cat Dockerfile 
+docker image build --rm -t hello-web  .
+docker image ls
+docker image history hello-web:latest 
+docker container run -P -d hello-web
+docker container ls
+curl http://localhost:32768/webapp/resources/persons
+firefox http://localhost:32768/webapp/resources/persons
+```
+
+## 2.7 Run JAR files from the Docker image
 
 ```
 
