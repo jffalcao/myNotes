@@ -53,6 +53,17 @@ git config --global --list
 ```
 sudo apt-get install openjdk-8-jdk
 java -version
+sudo vi /etc/environment 
+
+#---------------------------------------------------
+# file: /etc/environment
+
+JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+ #---------------------------------------------------
+
+cat /etc/environment 
+source /etc/environment
+echo $JAVA_HOME
 ```
 
 ## VS Code
@@ -72,7 +83,32 @@ code .
 - Procédure à décrire
 
 ## Maven
-- Procédure à décrire
+- Download from: https://maven.apache.org/download.cgi
+- Download checksum file
+
+```
+cd ~/Downloads/
+s -al
+sha512sum apache-maven-3.6.0-bin.tar.gz
+cat apache-maven-3.6.0-bin.tar.gz.sha512 
+sudo tar -xzvf apache-maven-3.6.0-bin.tar.gz -C /opt/
+cd ~
+ls -al
+sudo vi .profile 
+
+#------------------------------------------------
+# File: ~/.profile
+# Add the following line at the end of the file
+
+export PATH=/opt/apache-maven-3.6.0/bin:$PATH
+#------------------------------------------------
+
+cat .profile 
+source .profile 
+echo $PATH 
+mvn -v
+
+```
 
 ## Gradle
 - Procédure à décrire
