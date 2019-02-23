@@ -42,7 +42,14 @@ sudo dd if=./Downloads/debian-9.5.0-amd64-netinst.iso of=/dev/rdisk2 bs=1m
 
 - For Debians VMs. Guest Additions have to be installed from the mounted device after you choose the option to insert the guest Additions CD image in the Devices Menu.
 
-## Checking which JDKs are installed
+### JDK
+
+### Checking which JDKs are installed
 ```
 /usr/libexec/java_home -V
 ```
+
+### Switching between multiple java versions
+
+https://stackoverflow.com/questions/31156529/switching-between-multiple-java-versions
+
