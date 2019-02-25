@@ -29,4 +29,6 @@ Buid the project
 
 ```
 mvn clean install
+mvn dependency:tree
+mvn help:system
 ```
