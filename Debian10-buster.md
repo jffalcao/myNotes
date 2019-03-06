@@ -9,6 +9,7 @@ shutdown -r now
 ```
 
 - Add the following lines to /etc/NetworkManager/NetworkManager.conf
+- https://unix.stackexchange.com/questions/397620/wifi-wont-connect-even-though-it-shows-all-the-ssid
 
 ```
 [device]
