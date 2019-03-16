@@ -74,3 +74,16 @@ sudo apt-get update && apt-get upgrade
    38  ls
 ```
 
+- VS Code installation
+
+```
+50  cd ~/Downloads/
+   51  ls
+   52  sudo dpkg -i code_1.32.3-1552606978_amd64.deb 
+   53  ls
+   54  cd ..
+   55  cd jfrflabs/
+   56  ls
+   57  code -r myNotes/
+```
+
