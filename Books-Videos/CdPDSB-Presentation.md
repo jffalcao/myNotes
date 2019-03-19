@@ -46,7 +46,7 @@
     4. DotNet Core Use Cases
         - Install vim
         - Install Git
-        - [Install dotnet core 2.1 sdk](..Debian10-buster.md)
+        - [Install dotnet core 2.1 sdk](../../Debian10-buster.md)
         - verify installation
         ```
         dotnet
