@@ -78,6 +78,18 @@
         - Run in terminal
         - Run with ctrl-F5 / F5
         - Add another line: The Time on the server is @DateTime.Now in index.cstml
+        - Push code to Bitbucket /AzureDevOps
+        - Create the project on the server
+        
+        ```
+   24  git init
+   25  git status
+   26  git remote add origin https://github.com/jffalcao/dnc-todoApi.git
+   27  git remote -v
+   31  git pull origin master --allow-unrelated-histories
+   28  git push origin master
+   32  history
+   ```
 
 ## Varia
 - [Tutorial: Create a web API with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio-code)
