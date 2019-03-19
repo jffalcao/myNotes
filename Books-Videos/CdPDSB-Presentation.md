@@ -2,7 +2,13 @@
 
 1.  Minimal Install
     - What's on the computer
+        
+        Operating System
+        ----------------
         - Debian 10 Buster (Why?)
+        
+        Enterprise Tools
+        ----------------
         - Outlook Web
         - Teams
         - Yammer
@@ -12,15 +18,24 @@
         - Etc.
         - OneDrive
         - File Shares
-    - To Come
+        
+        Dev Tools 
+        ---------
+        - BitBucket
+        - Artifactory
+        - SonarQube
+        - Jenkins
+        
+     - Managed (To Come)
         - Part o the Domain
         - Connexion to Corporate Wifi
         - PulseSecure
         - SCCM
         - Nexxpose
+        - CrowdStrikes
         - McAfee
 
-    2. Customization Apps
+    2. Customization Proc
         - BitBucket Project
         - Building Blocks (In Sourcing)
         - SetUp - Scripts
@@ -31,7 +46,7 @@
     4. DotNet Core Use Cases
         - Install vim
         - Install Git
-        - [Install dotnet core 2.2 sdk](..Debian10-buster.md)
+        - [Install dotnet core 2.1 sdk](../../Debian10-buster.md)
         - verify installation
         ```
         dotnet
