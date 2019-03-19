@@ -5,26 +5,26 @@
         
         Operating System
         ----------------
-        Debian 10 Buster (Why?)
+        - Debian 10 Buster (Why?)
         
         Enterprise Tools
         ----------------
-        Outlook Web
-        Teams
-        Yammer
-        Sharepoint
-        Word
-        Excel
-        Etc.
-        OneDrive
-        File Shares
+        - Outlook Web
+        - Teams
+        - Yammer
+        - Sharepoint
+        - Word
+        - Excel
+        - Etc.
+        - OneDrive
+        - File Shares
         
         Dev Tools 
         ---------
-        BitBucket
-        Artifactory
-        SonarQube
-        Jenkins
+        - BitBucket
+        - Artifactory
+        - SonarQube
+        - Jenkins
         
      - Managed (To Come)
         - Part o the Domain
