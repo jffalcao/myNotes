@@ -22,10 +22,10 @@ wifi.scan-rand-mac-address=no
 systemctl restart NetworkManager
 ```
 
-## Ajout du user courant a sudo
+## Add a user to sudo
 
 ```
-usermod -aG sudo jffalcao
+usermod -aG sudo <username>
 reboot
 
 sudo apt-get update && apt-get upgrade
