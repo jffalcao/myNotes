@@ -22,7 +22,7 @@ sudo shutdown -r now
 
 ## Update software and repositories
 ```
-sudo apt-get update && apt upgrade
+sudo apt-get update && apt-get upgrade
 ```
 
 ## Propietary Wifi Drivers
