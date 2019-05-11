@@ -2,6 +2,12 @@
 
 Installation notes for CentOS Linux release 7.5.1804 (Core). 
 
+## Minimal install
+
+### Post installation steps
+
+Setup network: https://lintut.com/how-to-setup-network-after-rhelcentos-7-minimal-installation/
+
 
 ## Install EPEL
 -------
