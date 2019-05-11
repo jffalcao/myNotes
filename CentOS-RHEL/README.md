@@ -8,6 +8,8 @@ Installation notes for CentOS Linux release 7.5.1804 (Core).
 
 Setup network: https://lintut.com/how-to-setup-network-after-rhelcentos-7-minimal-installation/
 
+[Optional] Adding Gnome: https://www.itzgeek.com/how-tos/linux/centos-how-tos/install-gnome-gui-on-centos-7-rhel-7.html
+
 
 ## Install EPEL
 -------
