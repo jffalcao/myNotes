@@ -19,6 +19,10 @@ $ sudo yum install epel-release
 $ sudo yum repolist
 ```
 
+## Install ffmpeg
+
+https://www.vultr.com/docs/how-to-install-ffmpeg-on-centos
+
 ## Install Spotify
 ------------------
 
