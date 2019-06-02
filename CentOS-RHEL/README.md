@@ -61,7 +61,17 @@ $ sudo yum install code
 ------------------
 **Install Using RPM Package**
 
-Reference: https://www.techonia.com/790/install-dropbox-centos-7
+- Download the rpm package from the DropBox site
+- Install dependencies: libgnome, python3 and python3-gobject
+
+```
+
+```
+
+Reference: 
+- https://www.techonia.com/790/install-dropbox-centos-7
+- https://www.rosehosting.com/blog/how-to-install-python-3-6-4-on-centos-7/
+
 
 
 Reference: [How To Install Dropbox Client as a Service on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-install-dropbox-client-as-a-service-on-centos-7)
