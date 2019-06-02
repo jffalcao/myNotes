@@ -59,6 +59,10 @@ $ sudo yum install code
 
 ## Install Dropbox
 ------------------
+**Install Using RPM Package**
+
+Reference: https://www.techonia.com/790/install-dropbox-centos-7
+
 
 Reference: [How To Install Dropbox Client as a Service on CentOS 7](https://www.digitalocean.com/community/tutorials/how-to-install-dropbox-client-as-a-service-on-centos-7)
 
