@@ -25,6 +25,11 @@ patterns_of_enterprise_application_architecture
 
 ## Wish List
 
+***Python By Example***
+By: Burkhard Meier.   
+Publisher: Packt Publishing.   
+https://proquestcombo-safaribooksonline-com.res.banq.qc.ca/video/programming/python/9781788625807    
+
 ***Hands-On Microservices with Python***
 By: Peter Fisher.   
 Publisher: Packt Publishing.     
