@@ -25,6 +25,12 @@ patterns_of_enterprise_application_architecture
 
 ## Wish List
 
+***Hands-On Microservices with Python***
+By: Peter Fisher.   
+Publisher: Packt Publishing.     
+https://proquestcombo-safaribooksonline-com.res.banq.qc.ca/video/programming/python/9781789132045.   
+
+
 **Containers and Go**  
 By: Liz Rice   
 Publisher: O'Reilly Media, Inc.  
