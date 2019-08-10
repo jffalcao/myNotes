@@ -4,9 +4,9 @@
 https://realpython.com
 
 **Videos**   
-Hands-On Microservices with Python
-By: Peter Fisher
-Publisher: Packt Publishing
+Hands-On Microservices with Python   
+By: Peter Fisher   
+Publisher: Packt Publishing   
 https://proquestcombo-safaribooksonline-com.res.banq.qc.ca/video/programming/python/9781789132045
 
 
