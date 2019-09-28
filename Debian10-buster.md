@@ -3,6 +3,12 @@
 ## Install non-official non-free iso
 https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/amd64/
 
+
+## Update software and repositories
+```
+sudo apt-get update && apt-get upgrade
+```
+
 ## Add a user to sudo
 
 ```
@@ -10,13 +16,8 @@ su -
 usermod -aG sudo <username>
 shutdown -r now
 
-sudo apt-get update && apt-get upgrade
 ```
 
-## Update software and repositories
-```
-sudo apt-get update && apt-get upgrade
-```
 
 ## [Optionnal] Propietary Wifi Drivers
 ```
@@ -59,22 +60,6 @@ source /etc/environment
 echo $JAVA_HOME
 ```
 
-## VS Code
-
-- Download the .deb package from the VS Code Website
-https://code.visualstudio.com/docs/setup/linux  
-
-```
-sudo dpkg -i ./Downloads/<VSCodePackage>.deb 
-code .
-```
-
-## IntelliJ IDEA
-- Procédure à décrire
-
-## Eclipse
-- Procédure à décrire
-
 ## Maven
 - Download from: https://maven.apache.org/download.cgi
 - Download checksum file
@@ -102,6 +87,48 @@ echo $PATH
 mvn -v
 
 ```
+
+
+## VS Code
+
+- Download the .deb package from the VS Code Website
+https://code.visualstudio.com/docs/setup/linux  
+
+```
+sudo dpkg -i ./Downloads/<VSCodePackage>.deb 
+code .
+```
+
+## IntelliJ IDEA
+- Ref: https://www.javahelps.com/2015/04/install-intellij-idea-on-ubuntu.html
+
+- Download file from: https://www.jetbrains.com/idea/download/#section=linux
+
+
+```
+cd /opt/
+sudo tar -xvzf ~/Downloads/ideaIC-2019.2.3.tar.gz 
+sudo mv idea-IC-192.6817.14/ idea
+./idea/bin/idea.sh 
+```
+- Settings: Configure/Desktop Entry 
+
+## PyCharm
+- Download file from: https://www.jetbrains.com/pycharm/download/#section=linux
+
+
+```
+cd /opt/
+sudo tar -xvzf ~/Downloads/pycharm-community-2019.2.tar.gz
+sudo mv pycharm-community-2019.2/ pycharm
+./pycharm/bin/pycharm.sh 
+
+```
+- Settings: Configure/Desktop Entry 
+
+## Eclipse
+- Procédure à décrire
+
 
 ## Gradle
 - Procédure à décrire
