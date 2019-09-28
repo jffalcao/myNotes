@@ -149,36 +149,9 @@ sudo apt install keepass2
 Ref: https://www.spotify.com/ca-en/download/linux/
 
 ```
-sudo apt-get install dirmngr
-sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 931FF8E79F0876134EDDBDCCA87FF9DF48BF1C90
-echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
-sudo apt-get update
-sudo apt-get install spotify-client
-sudo shutdown -r now
-```
-
-- If Spotiy Icon disapears after reboot.  
-Add Desktop file manually in */usr/share/applications/spotify.desktop*
-
-```
-> sudo vi /usr/share/applications/spotify.desktop
-
-<spotify.desktop>
--------------------------------------------------
-[Desktop Entry]
-Name=Spotify
-GenericName=Music Player
-Comment=Listen to music using Spotify
-Icon=spotify-client
-Exec=spotify %U
-TryExec=spotify
-Terminal=falsOe
-Type=Application
-Categories=Qt;Audio;Music;Player;AudioVideo
-MimeType=x-scheme-handler/spotify
--------------------------------------------------
-
-sudo shutdown -r now
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get install spotify-client
 ```
 
 ## Dropbox
