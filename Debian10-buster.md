@@ -61,33 +61,13 @@ echo $JAVA_HOME
 ```
 
 ## Maven
-- Download from: https://maven.apache.org/download.cgi
-- Download checksum file
+- ref: https://linuxize.com/post/how-to-install-apache-maven-on-debian-9/
 
 ```
-cd ~/Downloads/
-s -al
-sha512sum apache-maven-3.6.0-bin.tar.gz
-cat apache-maven-3.6.0-bin.tar.gz.sha512 
-sudo tar -xzvf apache-maven-3.6.0-bin.tar.gz -C /opt/
-cd ~
-ls -al
-sudo vi .profile 
-
-#------------------------------------------------
-# File: ~/.profile
-# Add the following line at the end of the file
-
-export PATH=/opt/apache-maven-3.6.0/bin:$PATH
-#------------------------------------------------
-
-cat .profile 
-source .profile 
-echo $PATH 
-mvn -v
-
+sudo apt-get update
+sudo apt install maven
+mvn --version
 ```
-
 
 ## VS Code
 
