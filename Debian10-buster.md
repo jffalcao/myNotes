@@ -45,19 +45,8 @@ git config --global --list
 ## OpenJDK
 
 ```
-sudo apt-get install openjdk-8-jdk
+sudo apt-get install openjdk-11-jdk
 java -version
-sudo vi /etc/environment 
-
-#---------------------------------------------------
-# file: /etc/environment
-
-JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
- #---------------------------------------------------
-
-cat /etc/environment 
-source /etc/environment
-echo $JAVA_HOME
 ```
 
 ## Maven
