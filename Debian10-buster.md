@@ -120,6 +120,15 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 docker --version
 sudo usermod -aG docker $USER
 ```
+## Docker: Autocomplete commands
+- ref: https://medium.com/@ismailyenigul/enable-docker-command-line-auto-completion-in-bash-on-centos-ubuntu-5f1ac999a8a6
+
+```
+apt-get update
+apt-get install bash-completion
+sudo curl https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o /etc/bash_completion.d/docker.sh
+```
+
 
 ## Docker-compose
 - Procédure à décrire
