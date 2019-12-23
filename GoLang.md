@@ -29,4 +29,27 @@
 - [Github repo for Go Tooling in action, by Francesc Campoy](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwiQutrI5snmAhXMm-AKHd1mCgQQwqsBMAJ6BAgKEAc&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DO-bJ4s8OdcA&usg=AOvVaw0IM5txbkZKKiW3xz6ArxT-)
 
 
+## Libraries
+- **Cobra**  
+    A library for creating powerful modern CLI applications as well as a program to generate applications and command files.
+
+    [Github Repo](https://github.com/spf13/cobra)
+
+- **Gorilla Web Toolkit**  
+    A web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications
+
+    [Web Site]( https://www.gorillatoolkit.org)      
+    [Github Repo](https://github.com/gorilla/)  
+
+- **Buffalo**  
+    The Go Web Eco-System
+
+    [Web Site](https://gobuffalo.io/)  
+    [Github Repo](https://github.com/gobuffalo) 
+
+
+## Go Modules
+- [A Proposal for Package Versioning in Go](https://blog.golang.org/versioning-proposal)
+- [GoLang.org 4 article series on Go Modules](https://blog.golang.org/using-go-modules)
+
 
