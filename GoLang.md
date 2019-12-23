@@ -8,6 +8,8 @@
     - [Github Repo for the videos](https://github.com/vprusso/youtube_tutorials/blob/master/go/14_variadic_functions.go)
 - [Go by Example](https://gobyexample.com/)
 - [Just For Func: programming in Go](https://www.youtube.com/channel/UC_BzFbxG2za3bp5NRRRXJSw)
+- [Go Microservices, by Tensor Programming](https://www.youtube.com/playlist?list=PLJbE2Yu2zumAixEws7gtptADSLmZ_pscP)
+- [Go Design Patterns, by Tensor Programming](https://www.youtube.com/playlist?list=PLJbE2Yu2zumAKLbWO3E2vKXDlQ8LT_R28)
 
 
 ## Projects in Go
@@ -33,20 +35,27 @@
 - **Cobra**  
     A library for creating powerful modern CLI applications as well as a program to generate applications and command files.
 
-    [Github Repo](https://github.com/spf13/cobra)
+    [Github](https://github.com/spf13/cobra)
 
 - **Gorilla Web Toolkit**  
     A web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications
 
     [Web Site]( https://www.gorillatoolkit.org)      
-    [Github Repo](https://github.com/gorilla/)  
+    [Github](https://github.com/gorilla/)  
 
 - **Buffalo**  
     The Go Web Eco-System
 
     [Web Site](https://gobuffalo.io/)  
-    [Github Repo](https://github.com/gobuffalo) 
+    [Github](https://github.com/gobuffalo)  
+    [GolangUK Conf: Rapid Web Development](https://www.youtube.com/watch?v=J0JnHNgPMRk)
 
+- **Go Kit**
+    A toolkit for microservices
+
+    [Web Site](http://gokit.io/)  
+    [Github](https://github.com/go-kit/kit)  
+    [Go + microservices = Go Kit](https://www.youtube.com/watch?v=NX0sHF8ZZgw)
 
 ## Go Modules
 - [A Proposal for Package Versioning in Go](https://blog.golang.org/versioning-proposal)
