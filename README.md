@@ -7,7 +7,7 @@ $ fdisk -l
 $ sudo dd bs=4M if=<ISO File> of=/dev/<USB Drive> status=progress && sync
 ```
 ## Making a bootable Win 10 USB Key on Linux
-./create-win10-bottable-usb-on-linux.md
+https://github.com/jffalcao/myNotes/blob/master/create-win10-bootable-usb-on-linux
 
 ## Making a USB usable
 ```
