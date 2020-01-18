@@ -96,6 +96,30 @@ sudo mv pycharm-community-2019.2/ pycharm
 ```
 - Settings: Configure/Desktop Entry 
 
+## Postman
+- Download package from https://www.getpostman.com/downloads/
+
+```  
+$  cd ~/Downloads/
+$  sudo tar -xvzf Postman-linux-x64-7.14.0.tar.gz -C /opt/
+$  sudo ln -s /opt/Postman/Postman /usr/bin/postman
+$  postman
+
+$ cat > ~/.local/share/applications/postman.desktop <<EOL
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=postman
+# Before v6.1.2
+# Icon=/opt/Postman/resources/app/assets/icon.png
+Icon=/opt/Postman/app/resources/app/assets/icon.png 
+Terminal=false
+Type=Application
+Categories=Development;
+EOL
+
+```
+
 ## Eclipse
 - Procédure à décrire
 
