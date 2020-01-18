@@ -84,9 +84,10 @@ sudo mv idea-IC-192.6817.14/ idea
 
 ## PyCharm
 - Download file from: https://www.jetbrains.com/pycharm/download/#section=linux
-
+-  #Prerequisite: [Error on stackoverflow](https://stackoverflow.com/questions/55749206/modulenotfounderror-no-module-named-distutils-core)
 
 ```
+sudo apt-get install python3-distutils 
 cd /opt/
 sudo tar -xvzf ~/Downloads/pycharm-community-2019.2.tar.gz
 sudo mv pycharm-community-2019.2/ pycharm
