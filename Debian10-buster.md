@@ -58,6 +58,11 @@ sudo apt install maven
 mvn --version
 ```
 
+## Python pip
+```
+sudo apt install python-pip
+```
+
 ## VS Code
 
 - Download the .deb package from the VS Code Website
