@@ -60,7 +60,7 @@ mvn --version
 
 ## Python pip
 ```
-sudo apt install python-pip
+sudo apt install python-pip python3-pip 
 ```
 
 ## VS Code
