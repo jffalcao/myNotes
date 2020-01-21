@@ -58,9 +58,10 @@ sudo apt install maven
 mvn --version
 ```
 
-## Python pip
+## Python tools
 ```
 sudo apt install python-pip python3-pip 
+sudo apt install pylint
 ```
 
 ## VS Code
