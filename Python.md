@@ -3,9 +3,10 @@
 ## Learning Resources
 
 **Miguel Grinberg**
-Book and videos on Safari
-Github
-Youtube
+[Book and videos on Safari](https://proquestcombo-safaribooksonline-com.res.banq.qc.ca/search?q=Miguel%20Grinberg)
+[Blog](https://blog.miguelgrinberg.com/)
+[Github](https://github.com/miguelgrinberg)
+[Youtube](https://www.youtube.com/channel/UCZJiXG_auf0o7LByqC1LHuQ)
 
 **Sites**   
 https://realpython.com
