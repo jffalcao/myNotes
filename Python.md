@@ -1,4 +1,11 @@
+# Python
+
 ## Learning Resources
+
+**Miguel Grinberg**
+Book and videos on Safari
+Github
+Youtube
 
 **Sites**   
 https://realpython.com
@@ -8,7 +15,7 @@ Hands-On Microservices with Python, By: Peter Fisher
 Publisher: Packt Publishing   
 https://proquestcombo-safaribooksonline-com.res.banq.qc.ca/video/programming/python/9781789132045
 
-Essential Docker for Python Flask Development, By: Jorge Escobar
+Essential Docker for Python Flask Development, By: Jorge Escobar  
 https://proquestcombo-safaribooksonline-com.res.banq.qc.ca/video/programming/python/200000006a0401
 
 **Virtual environments:**    
@@ -17,3 +24,72 @@ https://realpython.com/python-virtual-environments-a-primer/
 
 **Microservices:**   
 https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb
+
+## Tools: PyCharm
+
+- updating PyCharm on linux (need elevated privileges). Execute the following procedure then open Pycharm and go to Help\check for updates
+- [Stackoverflow: Update PyCharm on Linux](https://stackoverflow.com/questions/23255033/update-pycharm-on-linux)
+
+
+```
+    locate pycharm.sh
+    sudo chown -R <User>:root <pycharm directory>
+
+    # Update PyCharm from the application menu Help\Check for updates
+
+    sudo chown -R root:root <pycharm directory>
+```
+## Setting up Python for development
+
+### PyCharm Community set-up
+
+[Setting Up a Flask Application in PyCharm - Miguel Grinberg](https://youtu.be/bZUokrYanFM)  
+
+#### Install the application
+
+- Clone a project, flasky for example
+- Create a virtual environment
+- Activate the virtual environment
+- Import requirements for the application
+- Set the FLASK_APP environment variable
+- Deploy the app using the custom CLI (flask deploy)
+
+```
+    cd jfrflabs/github/
+    git clone https://github.com/miguelgrinberg/flasky.git
+    mv flasky/ flasky-pycharm/
+    cd flasky-pycharm/
+    python3 -m venv venv
+    . venv/bin/activate
+    sudo pip install -r requirements/dev.txt 
+    export FLASK_APP=flasky.py
+    flask deploy
+```
+
+#### Run the application
+
+- TODO: Video 5:18
+
+### VS Code set-up
+
+[Setting Up a Flask Application in Visual Studio Code - Miguel Grinberg](https://youtu.be/UXqiVe6h3lA) 
+
+- Clone a project, flasky for example
+- Create a virtual environment
+- Activate the virtual environment
+- Import requirements for the application
+- Set the FLASK_APP environment variable
+
+```
+    cd jfrflabs/github/
+    git clone https://github.com/miguelgrinberg/flasky.git
+    mv flasky/ flasky-vscode/
+    cd flasky-vscode/
+    python3 -m venv venv
+    source venv/bin/activate
+    sudo pip install -r requirements/dev.txt 
+    export FLASK_APP=flasky.py
+
+```
+
+
