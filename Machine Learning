@@ -1,10 +1,11 @@
 # Machine Learning
 
-## Youtube Videos
+## Tech with Tim - Machine Learning Course
 
-[Python Machine Learning Tutorial #1 - Introduction](https://youtu.be/ujTCoH21GlA)
+Youtube Channel: [Tech With Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg)
 
-- Youtube Channel: [Tech With Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg)
+[Python Machine Learning Tutorial](https://techwithtim.net/tutorials/machine-learning-python/)
+
 - PyCharm Community Edition
 - Anaconda 3.7+ (Add conda to path)
 - TensorFlow (through pip)
