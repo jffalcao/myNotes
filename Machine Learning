@@ -1,0 +1,31 @@
+# Machine Learning
+
+## Youtube Videos
+
+[Python Machine Learning Tutorial #1 - Introduction](https://youtu.be/ujTCoH21GlA)
+
+- Youtube Channel: [Tech With Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg)
+- PyCharm Community Edition
+- Anaconda 3.7+ (Add conda to path)
+- TensorFlow (through pip)
+- Keras (trough pip)
+
+
+
+```
+    $ cd mkdir -p ~/jfrflabs/youtube/techwithtim/python-learning-machine
+    $ cd ~/jfrflabs/youtube/techwithtim/python-learning-machine/
+    $ conda
+    $ create -n tensor python-3.6
+    $ activate tensor
+    $ pip install TensorFlow
+    $ pip install keras
+```
+
+- Open PyCharm Community
+- Create a new project [tensorenv]
+- ceate new file: test.py
+- Choose a project interpretor (Anaconda3 - environment=tensor -  python.exe) 
+- Add a configuration for te
+
+
