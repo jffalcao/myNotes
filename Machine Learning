@@ -7,18 +7,24 @@ Youtube Channel: [Tech With Tim](https://www.youtube.com/channel/UC4JX40jDee_tIN
 [Python Machine Learning Tutorial](https://techwithtim.net/tutorials/machine-learning-python/)
 
 - PyCharm Community Edition
-- Anaconda 3.7+ (Add conda to path)
-- TensorFlow (through pip)
-- Keras (trough pip)
+- Anaconda 3.7+ [website](https://docs.anaconda.com/anaconda/)
+    - [Installing on Linux](https://docs.anaconda.com/anaconda/install/linux/)
+    - anaconda-navigator from command-line
+- Using pip
+    - TensorFlow
+    - sklearn
+    - pickle
+    - numpy
+    - Keras
 
 
 
 ```
-    $ cd mkdir -p ~/jfrflabs/youtube/techwithtim/python-learning-machine
+    $ [Optional]cd mkdir -p ~/jfrflabs/youtube/techwithtim/python-learning-machine
     $ cd ~/jfrflabs/youtube/techwithtim/python-learning-machine/
     $ conda
-    $ create -n tensor python-3.6
-    $ activate tensor
+    $ conda create -n tensor python=3.6
+    $ conda activate tensor              # conda deactivate
     $ pip install TensorFlow
     $ pip install keras
 ```
