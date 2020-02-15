@@ -110,9 +110,25 @@ Reverting back to the most recent code base
 `$ git checkout master`
 
 
+## Fix a Git Detached HEAD
 
+[Stackoverflow](https://stackoverflow.com/questions/10228760/fix-a-git-detached-head)
 
+**Delete the changes on the HEAD**
 
+```
+    git checkout master
+    git checkout -- <file>
+```
 
+**Keep the changes on the HEAD**
+
+```
+   # find the commit if last
+   git log -n 1
+   git checkout master
+   git branch tmp <commit-hash>
+   git merge tmp 
+```
 
 
