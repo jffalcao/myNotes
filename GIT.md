@@ -90,7 +90,7 @@ or
 To push a single tag:  
 `git push origin <tag_name>`
 
-** Moving a tag to a different commit
+**Moving a tag to a different commit**
 
 https://stackoverflow.com/questions/8044583/how-can-i-move-a-tag-on-a-git-branch-to-a-different-commit
 
