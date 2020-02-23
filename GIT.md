@@ -90,6 +90,16 @@ or
 To push a single tag:  
 `git push origin <tag_name>`
 
+** Moving a tag to a different commit
+
+https://stackoverflow.com/questions/8044583/how-can-i-move-a-tag-on-a-git-branch-to-a-different-commit
+
+```
+git tag -a v0.1 -m "Chapter 1: hello Wolrd completed" -f
+git push origin :refs/tags/v0.1
+git push origin --tags
+```
+
 ***
 
 ## Cloning and Checkout
@@ -130,5 +140,7 @@ Reverting back to the most recent code base
    git branch tmp <commit-hash>
    git merge tmp 
 ```
+
+
 
 
