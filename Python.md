@@ -1,4 +1,10 @@
-`# Python
+# Python
+
+## Python.org
+- https://www.python.org/
+- [Getting Started](https://www.python.org/about/gettingstarted/)
+- [Code Samples](https://wiki.python.org/moin/BeginnersGuide/Examples)
+
 
 ## Learning Resources
 
