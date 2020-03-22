@@ -1,10 +1,19 @@
 # Python
 
+[VS Code Setup](#vscodesetup)
+
 ## Python.org
 - https://www.python.org/
 - [Getting Started](https://www.python.org/about/gettingstarted/)
 - [Code Samples](https://wiki.python.org/moin/BeginnersGuide/Examples)
 
+## Install on Linux
+
+```
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install python3 python3-pip python3-venv
+python3 --version
+```
 
 ## Learning Resources
 
@@ -75,6 +84,7 @@ https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb
 - TODO: Video 5:18
 
 ### VS Code set-up
+<a name="vscodesetup"></a>
 
 [Setting Up a Flask Application in Visual Studio Code - Miguel Grinberg](https://youtu.be/UXqiVe6h3lA) 
 

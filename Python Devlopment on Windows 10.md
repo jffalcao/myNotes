@@ -15,3 +15,6 @@
 - i7-6600U
 - 512GB HD 
 
+## Install Python on WSL
+
+
