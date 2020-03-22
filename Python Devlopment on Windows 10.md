@@ -2,12 +2,12 @@
 
 ## Tooling
 - Windows 10 (Insider preview - slow ring)
-- GitHub Desktop
 - Chrome
-- Chocolatey
-- WSL
 - VSCode
-- Python on WSL
+  - Remote Development Extension Pack
+  - Python
+- WSL
+  - Python on WSL
 
 ## Hardware
 - HP850 G3
