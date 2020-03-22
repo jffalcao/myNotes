@@ -83,8 +83,9 @@ https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb
 
 - TODO: Video 5:18
 
-### VS Code set-up
 <a name="vscodesetup"></a>
+
+### VS Code set-up
 
 [Setting Up a Flask Application in Visual Studio Code - Miguel Grinberg](https://youtu.be/UXqiVe6h3lA) 
 
