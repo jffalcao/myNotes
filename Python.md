@@ -1,16 +1,16 @@
 # Python <!-- omit in toc -->
 
-## Sections <!-- omit in toc -->
 - [Python.org](#pythonorg)
-- [Tooling](#tooling)
-- [Install on Linux](#install-on-linux)
+- [Install Python on Linux / WSL](#install-python-on-linux--wsl)
 - [Learning Resources](#learning-resources)
-- [Tools: PyCharm](#tools-pycharm)
-- [Setting up Python for development](#setting-up-python-for-development)
+- [Setting up development environment](#setting-up-development-environment)
+  - [VS Code](#vs-code)
+    - [Plugins](#plugins)
+    - [Set-up a Flask project](#set-up-a-flask-project)
   - [PyCharm Community set-up](#pycharm-community-set-up)
-    - [Install the application](#install-the-application)
+    - [Set-up a Flask project](#set-up-a-flask-project-1)
     - [Run the application](#run-the-application)
-  - [VS Code set-up](#vs-code-set-up)
+    - [Updating PyCharm on Linux](#updating-pycharm-on-linux)
 
 ---
 
@@ -19,17 +19,7 @@
 - [Getting Started](https://www.python.org/about/gettingstarted/)
 - [Code Samples](https://wiki.python.org/moin/BeginnersGuide/Examples)
 
-## Tooling
-
-**VSCode**
-
-- Plugins:
-  - Python (Microsoft)
-  - Remote Development Extension Pack
-  - Markdown All in One
-
-
-## Install on Linux
+## Install Python on Linux / WSL
 
 ```
 sudo apt-get update && sudo apt-get upgrade
@@ -60,27 +50,43 @@ https://realpython.com/python-virtual-environments-a-primer/
 **Microservices:**   
 https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb
 
-## Tools: PyCharm
+## Setting up development environment
 
-- updating PyCharm on linux (need elevated privileges). Execute the following procedure then open Pycharm and go to Help\check for updates
-- [Stackoverflow: Update PyCharm on Linux](https://stackoverflow.com/questions/23255033/update-pycharm-on-linux)
+### VS Code
 
+#### Plugins
+  - Python (Microsoft)
+  - Remote Development Extension Pack
+  - Markdown All in One
+
+
+#### Set-up a Flask project
+
+[Setting Up a Flask Application in Visual Studio Code - Miguel Grinberg](https://youtu.be/UXqiVe6h3lA) 
+
+- Clone a project, flasky for example
+- Create a virtual environment
+- Activate the virtual environment
+- Import requirements for the application
+- Set the FLASK_APP environment variable
 
 ```
-    locate pycharm.sh
-    sudo chown -R <User>:root <pycharm directory>
+    cd jfrflabs/github/
+    git clone https://github.com/miguelgrinberg/flasky.git
+    mv flasky/ flasky-vscode/
+    cd flasky-vscode/
+    python3 -m venv venv
+    source venv/bin/activate
+    sudo pip install -r requirements/dev.txt 
+    export FLASK_APP=flasky.py
 
-    # Update PyCharm from the application menu Help\Check for updates
-
-    sudo chown -R root:root <pycharm directory>
 ```
-## Setting up Python for development
 
 ### PyCharm Community set-up
 
 [Setting Up a Flask Application in PyCharm - Miguel Grinberg](https://youtu.be/bZUokrYanFM)  
 
-#### Install the application
+#### Set-up a Flask project
 
 - Clone a project, flasky for example
 - Create a virtual environment
@@ -105,28 +111,17 @@ https://medium.com/@ssola/building-microservices-with-python-part-i-5240a8dcc2fb
 
 - TODO: Video 5:18
 
-<a name="vscodesetup"></a>
+#### Updating PyCharm on Linux
 
-### VS Code set-up
+- updating PyCharm on linux (need elevated privileges). Execute the following procedure then open Pycharm and go to Help\check for updates
+- [Stackoverflow: Update PyCharm on Linux](https://stackoverflow.com/questions/23255033/update-pycharm-on-linux)
 
-[Setting Up a Flask Application in Visual Studio Code - Miguel Grinberg](https://youtu.be/UXqiVe6h3lA) 
-
-- Clone a project, flasky for example
-- Create a virtual environment
-- Activate the virtual environment
-- Import requirements for the application
-- Set the FLASK_APP environment variable
 
 ```
-    cd jfrflabs/github/
-    git clone https://github.com/miguelgrinberg/flasky.git
-    mv flasky/ flasky-vscode/
-    cd flasky-vscode/
-    python3 -m venv venv
-    source venv/bin/activate
-    sudo pip install -r requirements/dev.txt 
-    export FLASK_APP=flasky.py
+    locate pycharm.sh
+    sudo chown -R <User>:root <pycharm directory>
 
+    # Update PyCharm from the application menu Help\Check for updates
+
+    sudo chown -R root:root <pycharm directory>
 ```
-
-
