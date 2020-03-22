@@ -1,11 +1,33 @@
-# Python
+# Python <!-- omit in toc -->
 
-[VS Code Setup](#vscodesetup)
+## Sections <!-- omit in toc -->
+- [Python.org](#pythonorg)
+- [Tooling](#tooling)
+- [Install on Linux](#install-on-linux)
+- [Learning Resources](#learning-resources)
+- [Tools: PyCharm](#tools-pycharm)
+- [Setting up Python for development](#setting-up-python-for-development)
+  - [PyCharm Community set-up](#pycharm-community-set-up)
+    - [Install the application](#install-the-application)
+    - [Run the application](#run-the-application)
+  - [VS Code set-up](#vs-code-set-up)
+
+---
 
 ## Python.org
 - https://www.python.org/
 - [Getting Started](https://www.python.org/about/gettingstarted/)
 - [Code Samples](https://wiki.python.org/moin/BeginnersGuide/Examples)
+
+## Tooling
+
+**VSCode**
+
+- Plugins:
+  - Python (Microsoft)
+  - Remote Development Extension Pack
+  - Markdown All in One
+
 
 ## Install on Linux
 
