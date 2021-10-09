@@ -46,3 +46,6 @@ sh pycharm.sh
 
 ```
 
+## Crate a windows shortcut for PyCharm
+
+C:\Windows\System32\wsl.exe -d Ubuntu-20.04 --exec sh /opt/pycharm-community-2021.2.2/bin/pycharm.sh
