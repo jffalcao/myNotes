@@ -1,4 +1,4 @@
-## Making a bootable usb key
+## Making a bootable usb key on Linux
 
 https://www.youtube.com/watch?v=rpGgTTFKwiU
 
@@ -6,11 +6,12 @@ https://www.youtube.com/watch?v=rpGgTTFKwiU
 $ fdisk -l
 $ sudo dd bs=4M if=<ISO File> of=/dev/<USB Drive> status=progress && sync
 ```
+
 ## Making a bootable Win 10 USB Key on Linux
 https://github.com/jffalcao/myNotes/blob/master/create-win10-bootable-usb-on-linux
 
 ## Making a USB usable
-```
+c
 sudo fdisk -l
 sudo wipefs --all /dev/<sdb>
 sudo fdisk /dev/<sdb>
@@ -22,6 +23,15 @@ sudo fdisk /dev/<sdb>
 ```
 sudo fdisk -l
 sudo mkfs.vfat -n '<label>' /dev/<sdb1>
+```
+
+## Making a bootable USB key on MacOS
+https://www.youtube.com/watch?v=sLAu1Klm_9g
+
+```
+  diskutil list 
+  diskutil unmountDisk <Disk>
+  sudo dd bs=1m if=<ISO File> of=/dev/<USB Drive> status=progress && sync 
 ```
 
 ## Enabling SSH
